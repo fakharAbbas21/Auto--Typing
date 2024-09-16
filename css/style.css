@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .typing-container {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+    background: blueviolet;
+    padding: 10px 40px;
+    border-radius: 8px;
+  }
+  
+  #cursor {
+    animation: blink-caret 0.75s infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  
